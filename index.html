@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Mini Portfolio</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="styles/style.css">
+<link rel="icon" href="styles/icon.jpg">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<body>
+<div class="wrapper">
+<header>
+    <div class='name-and-date'>
+    <h1>Bedran Yildirim</h1>
+    <h2>Todays Date:</h2>
+    <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+    </div>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+<main>
+    <div class='about'>
+        <div class="left-side">
+            <h2>About Me</h2>
+            <p>
+                Hello! I'm Bedran, but you can call me Bedro. I'm a young engineering student currently learning Front-end and Back-end via the Full-Stack Career Path on Codecademy.
+                This will be my first portfolio project using HTML, CSS and some fun script usage with Javascript.
+            </p>
+            <p>
+            When im not spending time infront of the computer playing video-games or going over coding chapters, I like to workout at the gym.
+            I have a passion for cooking aswell, always baking something or trying a new recipe, 
+            altough lately thats slowed down thanks to my sweet mother sending me a care package of food during exam periods, 
+            I really couldnt measure my love and sincerity for her.
+            </p>
+            <p>I hope my portfolio leaves you impressed and if it did, make sure to contact me with some feedback,
+                 I'm always open to hear how i can improve. Thank you!
+            </p>
+        </div>
+        <div class="img">
+            <img src='styles/Bedran.png'>
+        </div>
+    </div>
+    <div class='projects'>
+        <h2>Projects</h2>
+        <ul>
+            <li id='crypto'><a href=''>A Crypto-Analytics Website</a></li>
+            <li id='todo'><a href=''>A Simple To-Do List</a></li>
+            <li id='calculator'><a href=''>A Calculator made with Javascript</a></li>
+        </ul>
+    </div>
+    <div class='skills'>
+        <h2>Skills</h2>
+        <div class="skill-icons">
+            <span class="iconify" data-icon="akar-icons:css-fill" data-width="40" data-height="40"></span>
+            <span class="iconify" data-icon="ant-design:html5-filled" data-width="40" data-height="40"></span>
+            <span class="iconify" data-icon="logos:javascript" data-width="40" data-height="40"></span>
+            <span class="iconify" data-icon="logos:react" data-width="40" data-height="40"></span>
+            <span class="iconify" data-icon="vscode-icons:file-type-matlab" data-width="40" data-height="40"></span>
+            <span class="iconify" data-icon="cib:mysql" data-width="40" data-height="40"></span>
+            <span class="iconify" data-icon="cib:cplusplus" data-width="40" data-height="40"></span>
+        </div> 
+    </div>
+    <div class='contact'>
+        <h2>Contact</h2>
+        <p>Got a project you would like to share? Contact me and let's discuss it!</p>
+            <div class="contact-icon">
+            <a href="https://github.com/BedroY"><span class="iconify" data-icon="akar-icons:github-fill" data-width="40" data-height="40"></span></a>
+            <a href="https://www.linkedin.com/in/bedran-yildirim-7a706921b/"><span class="iconify" data-icon="logos:linkedin-icon" data-width="40" data-height="40"></span></a>
+            <span class="iconify" data-icon="dashicons:email-alt" data-width="40" data-height="40"></span>
+        </div>
+    </div>
+</main>    
+<footer>
+    <h2>Portfolio made by Bedran Yildirim</h2>
+</footer>
+</div>
+</body>
+<script src="\scripts\script.js"></script>
+<script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+</html>
